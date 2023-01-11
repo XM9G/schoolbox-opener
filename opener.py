@@ -14,7 +14,14 @@ if os.path.exists('numbers.txt'):
     with open('numbers.txt', 'r') as f:
         numbers = f.read().splitlines()
 
-print("""i havent dont the askii art yet """)
+print("""  #####                                                             #######                                    
+ #     #  ####  #    #  ####   ####  #      #####   ####  #    #    #     # #####  ###### #    # ###### #####  
+ #       #    # #    # #    # #    # #      #    # #    #  #  #     #     # #    # #      ##   # #      #    # 
+  #####  #      ###### #    # #    # #      #####  #    #   ##      #     # #    # #####  # #  # #####  #    # 
+       # #      #    # #    # #    # #      #    # #    #   ##      #     # #####  #      #  # # #      #####  
+ #     # #    # #    # #    # #    # #      #    # #    #  #  #     #     # #      #      #   ## #      #   #  
+  #####   ####  #    #  ####   ####  ###### #####   ####  #    #    ####### #      ###### #    # ###### #    # 
+                                                                                                               """)
 print('This will open random Schoolbox class pages.')
 print('Then you can look through the tabs and see if any ones are your next years classes.')
 print("")
