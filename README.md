@@ -4,9 +4,12 @@ This will open random schoolbox class pages, then you can look through the tabs 
 
 First you must run:
 
-pip install random
-pip install time
-pip install webbrowser
-pip install os
+`pip install random`
+
+`pip install time`
+
+`pip install webbrowser`
+
+`pip install os`
 
 To use just run the python file
