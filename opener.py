@@ -38,7 +38,7 @@ sleep_time = float(input('Enter the number of seconds to sleep for before openin
 staging = "n"
 if staging == "n":
     teacher = input("Search Teachers? Y/N: ")
-
+    tnumber = input('Input the max teacher number (If you dont know what that is put something that is around the number of teachers at your school):')
 if staging == "n":
     if teacher == "n":
         while True:
@@ -72,7 +72,7 @@ if staging == "n":
     elif teacher == "y":
         while True:
             # Get a random number between 1 and 134
-            number = random.randint(1, 134)
+            number = random.randint(1, int(tnumber))
             print('making random number')
 
         # Check if the number has already been generated
