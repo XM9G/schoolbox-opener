@@ -12,4 +12,4 @@ First you must run:
 
 `pip install os`
 
-To use just run the python file
+To use just run the python file If it closes after one tab right click in file explorer and press open in terminal and run `python opener.py`
